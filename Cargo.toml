@@ -1,0 +1,9 @@
+[package]
+name = "tetris_term"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sebastian Tabares <me@syta.co>"]
+
+[dependencies]
+termion = "4.0.2"
+tetris = { path = "../tetris" }
